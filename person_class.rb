@@ -38,6 +38,7 @@ j = Person.new("John")
 p = Person.new("Paul")
 g = Person.new("George")
 r = Person.new("Ringo")
+
 j.has_friend(p)
 j.has_friend(g)
 g.has_friend(p)
