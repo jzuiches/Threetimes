@@ -2,6 +2,7 @@ class Person
   attr_accessor :first_name, :middle_name, :last_name
   def whole_name
     #uses the first_name accessor without invoking self
+    #self is the reciever of bareword invocations
     n = self.first_name + " "
     n << "#{middle_name} " if self.middle_name
     n << self.last_name
